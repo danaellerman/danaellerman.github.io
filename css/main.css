@@ -106,10 +106,24 @@ form {
 
   .mast {
     background-image: url('../img/dana_bg_mobile.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    background-position: center center;
   }
 
   .services {
-    background-image: url('../img/services_bg_mobile.jpeg')
+    background-image: url('../img/services_bg_mobile.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    background-position: center center;
   }
 
   .services {
