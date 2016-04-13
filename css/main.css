@@ -105,7 +105,7 @@ form {
 @media only screen and (max-width: 415px){
 
   .mast {
-    background-image: url('../img/dana_bg_mobile.jpeg');
+    background: url('../img/dana_bg_mobile.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     webkit-background-size: cover;
@@ -117,7 +117,7 @@ form {
   }
 
   .services {
-    background-image: url('../img/services_bg_mobile.jpeg');
+    background: url('../img/services_bg_mobile.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     webkit-background-size: cover;
