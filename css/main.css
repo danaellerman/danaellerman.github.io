@@ -102,10 +102,16 @@ form {
 @media only screen and (max-width: 415px){
 
   .mast {
-
+    background-image: url('../img/dana_bg_mobile.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 350px;
   }
 
   .services {
+    background-image: url('../img/services_bg_mobile.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
     padding: 1.5%;
     height: 700px;
   }
