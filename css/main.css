@@ -29,16 +29,13 @@ small {
   color: #fff;
 }
 
-header {
-  height: 650px;
-}
-
 .mast {
   background-image: url('../img/dana_bg.jpeg');
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
+  height: 650px;
   color: white;
 }
 
