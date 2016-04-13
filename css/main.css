@@ -1,6 +1,8 @@
 html {
   font-family: 'Poiret One', cursive;
   font-family: 'Raleway', sans-serif;
+  height: 100%;
+  width: 100%;
 }
 
 h1 {
@@ -31,7 +33,10 @@ small {
   background-image: url('../img/dana_bg.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
   background-position: center center;
   height: 650px;
   color: white;
