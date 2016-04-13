@@ -89,6 +89,10 @@ footer {
   margin-bottom: 0;
 }
 
+form {
+  margin-bottom: 12px;
+}
+
 .input-field label {
   color: #fff;
 }
