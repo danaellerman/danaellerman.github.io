@@ -36,7 +36,7 @@ small {
   webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; 
+    background-size: cover;
   background-position: center center;
   height: 650px;
   color: white;
@@ -103,6 +103,14 @@ form {
 }
 
 @media screen and (max-width: 375px){
+
+  .mast {
+    background-image: url('../img/dana_bg_mobile.jpeg');
+  }
+
+  .services {
+    background-image: url('../img/services_bg_mobile.jpeg')
+  }
 
   .services {
     padding: 1.5%;
