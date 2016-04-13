@@ -29,16 +29,16 @@ small {
   color: #fff;
 }
 
+header {
+  height: 650px;
+}
+
 .mast {
   background-image: url('../img/dana_bg.jpeg');
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
   background-position: center center;
-  height: 650px;
+  background-attachment: fixed;
+  background-size: cover;
   color: white;
 }
 
@@ -105,27 +105,7 @@ form {
 @media only screen and (max-width: 415px){
 
   .mast {
-    background: url('../img/dana_bg_mobile.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    background-position: center center;
-    height: 100%;
-  }
 
-  .services {
-    background: url('../img/services_bg_mobile.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    background-position: center center;
-    height: 100%;
   }
 
   .services {
