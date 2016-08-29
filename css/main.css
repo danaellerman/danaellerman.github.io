@@ -1,122 +1,140 @@
 html {
-  font-family: 'Poiret One', cursive;
-  font-family: 'Raleway', sans-serif;
-  height: 100%;
-  width: 100%;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    width: 100%;
 }
 
 h1 {
-  margin: 0;
+    margin: 0;
 }
 
 h2 {
-  font-weight: 100;
+    font-weight: 100;
 }
 
 h3 {
-  font-size: 18px;
-  position: relative;
-  top: 35.5%;
-  left: 3.5%;
-  font-weight: 100;
+    font-size: 18px;
+    position: relative;
+    top: 35.5%;
+    left: 3.5%;
+    font-weight: 100;
 }
 
 hr.light {
-  border-top: 1px solid #fff;
+    border-top: 1px solid #fff;
 }
 
 small {
-  color: #fff;
+    color: #fff;
 }
 
 .mast {
-  background-image: url('../img/dana_bg.jpeg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 650px;
-  color: white;
+    background-image: url('../img/dana_bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 650px;
+    color: white;
 }
 
 .mast h1 {
-  font-weight: 100;
-  position: relative;
-  top: 35%;
-  left: 3%;
-  width: 95%;
+    font-weight: 100;
+    position: relative;
+    top: 35%;
+    left: 3%;
+    width: 95%;
 }
 
 .mast h3 {
-  left: 3%;
-  width: 95%;
+    left: 3%;
+    width: 95%;
 }
 
 .materialboxed {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .services {
-  background-image: url('../img/services_bg_1.jpeg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-  height: 650px;
-  padding: 3.5%;
+    background-image: url('../img/services_bg_1.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 650px;
+    padding: 3.5%;
 }
 
 .services h2 {
-  color: #fff;
+    color: #fff;
 }
 
 .collapsible-body {
-  background-color: #fff;
+    background-color: #fff;
 }
 
 .services h2 {
-  color: #fff;
+    color: #fff;
 }
 
 .collapsible-body p {
-  padding: 1rem;
+    padding: 1rem;
 }
 
 footer {
-  background: #212121;
-  color: #fff;
+    background: #212121;
+    color: #fff;
 }
 
 .footer-row {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 form {
-  margin-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 .input-field label {
-  color: #fff;
+    color: #fff;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 415px){
+.card-image .responsive-img {
+    height: 270px;
+}
 
-  .mast {
-    background: url('../img/dana_bg_mobile.jpeg');
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    height: 320px;
-  }
+.card-image .responsive-img-long {
+    height: auto;
+}
 
-  .services {
-    background-image: url('../img/services_bg_mobile.jpeg');
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: scroll;
-    padding: 1.5%;
-    height: 700px;
-  }
+@media only screen and (max-width: 768px) {
+    .card-image .responsive-img {
+        height: 175px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card-image .responsive-img {
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 415px) {
+    .mast {
+        background: url('../img/dana_bg_mobile.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        height: 320px;
+    }
+    .services {
+        background-image: url('../img/services_bg_mobile.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: scroll;
+        padding: 1.5%;
+        height: 700px;
+    }
 }
