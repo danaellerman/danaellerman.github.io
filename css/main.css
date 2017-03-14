@@ -100,11 +100,12 @@ form {
 }
 
 .card-image .responsive-img {
+    object-fit: cover;
     height: 270px;
 }
 
 .card-image .responsive-img-long {
-    height: auto;
+    object-position: 0 10%;
 }
 
 @media only screen and (max-width: 768px) {
