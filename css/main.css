@@ -1,141 +1,179 @@
 html {
-    font-family: 'Poiret One', cursive;
-    font-family: 'Raleway', sans-serif;
-    height: 100%;
-    width: 100%;
+  font-family: 'Raleway', sans-serif;
+  height: 100%;
+  width: 100%;
 }
 
 h1 {
-    margin: 0;
+  margin: 0;
 }
 
 h2 {
-    font-weight: 100;
-}
-
-h3 {
-    font-size: 18px;
-    position: relative;
-    top: 35.5%;
-    left: 3.5%;
-    font-weight: 100;
+  font-weight: 100;
 }
 
 hr.light {
-    border-top: 1px solid #fff;
+  border-top: 1px solid #fff;
 }
 
 small {
-    color: #fff;
+  color: #fff;
 }
 
 .mast {
-    background-image: url('../img/dana_bg.jpeg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 650px;
-    color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.40),
+    rgba(0, 0, 0, 0.40)
+  ), url('../img/october19/blanc4.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 650px;
+  color: white;
 }
 
-.mast h1 {
-    font-weight: 100;
-    position: relative;
-    top: 35%;
-    left: 3%;
-    width: 95%;
+.mast .headline,
+.mast .subline,
+.mast .studio-name {
+  display: block;
+  margin: 0;
+  margin-bottom: 5px;
+  font-weight: 300;
+  text-align: center;
 }
 
-.mast h3 {
-    left: 3%;
-    width: 95%;
+.mast .subline {
+  font-size: 28px;
+}
+
+.mast .studio-name {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.box {
+  border: 2px solid white;
+  padding: 75px;
 }
 
 .materialboxed {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+.about {
+  padding: 70px 0;
+}
+
+.about h2 {
+  margin: 0;
 }
 
 .services {
-    background-image: url('../img/services_bg_1.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-    height: 650px;
-    padding: 3.5%;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.40),
+    rgba(0, 0, 0, 0.40)
+  ), url('../img/october19/blanc3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  height: 650px;
+  padding: 3.5%;
 }
 
 .services h2 {
-    color: #fff;
+  color: #fff;
 }
 
 .collapsible-body {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .services h2 {
-    color: #fff;
+  color: #fff;
 }
 
 .collapsible-body p {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 footer {
-    background: #212121;
-    color: #fff;
+  background: #212121;
+  color: #fff;
 }
 
 .footer-row {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 form {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 .input-field label {
-    color: #fff;
+  color: #fff;
 }
 
 .card-image .responsive-img {
-    object-fit: cover;
-    height: 270px;
+  object-fit: cover;
+  height: 270px;
 }
 
 .card-image .responsive-img-long {
-    object-position: 0 10%;
+  object-position: 0 10%;
 }
 
 @media only screen and (max-width: 768px) {
-    .card-image .responsive-img {
-        height: 175px;
-    }
+  .card-image .responsive-img {
+    height: 175px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .card-image .responsive-img {
-        height: auto;
-    }
+  .box {
+    padding: 35px;
+  }
+
+  .card-image .responsive-img {
+    height: auto;
+  }
 }
 
 @media only screen and (min-width: 300px) and (max-width: 415px) {
-    .mast {
-        background: url('../img/dana_bg_mobile.jpeg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        height: 320px;
-    }
-    .services {
-        background-image: url('../img/services_bg_mobile.jpeg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        background-attachment: scroll;
-        padding: 1.5%;
-        height: 700px;
-    }
+  .mast .headline {
+    font-size: 32px;
+  }
+
+  .mast .subline {
+    font-size: 20px;
+  }
+
+  .mast .studio-name {
+    font-size: 18px;
+  }
+
+  .box {
+    border: 1px solid white;
+    padding: 20px;
+  }
+
+  .mast {
+    background-attachment: scroll;
+    height: 320px;
+  }
+
+  .about {
+    padding: 40px 0;
+  }
+
+  .services {
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 1.5%;
+    height: 700px;
+  }
 }
